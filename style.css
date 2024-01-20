@@ -693,94 +693,81 @@ gap: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* @media(width:375){
-
+@media(min-width:610px ){
 
   h1{
-    font-size: 36px;
+    font-size: 30px;
 
   }
 
   h2{
-    font-size: 34px;
-    margin-bottom: 2rem;
+    font-size: 32px;
+    margin-bottom: 1.5rem;
   }
 
   h3{
-    font-size: 26px;
+    font-size: 24px;
   }
   h4{
-    font-size: 22px;
+    font-size: 20px;
   }
   h5{
-    font-size: 18px;
+    font-size: 16px;
 
   }
 .btn{
-  padding: 10px 22px;
+  padding: 10px 20px;
 
-}*/
-   /* start nav links
+}
+  /* start nav links*/
 
   .nav-links{
-    width: 18rem;
+    width: 17.5rem;
 
   }
-   start header 
+  /* start header */
 
   .circle{
-    height: 16rem;
-    width: 16rem;
-    margin-top: 262px;
+    height: 15.5rem;
+    width: 15.5rem;
   }
   .circle a{
-    height: 3rem;
-    width: 3rem;
-    font-size: 20px;
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 18px;
 
   }
 
   .circle a:nth-child(1){
-    left: calc(50% - 1.5rem );
-    top: -1.5rem;
+    left: calc(50% - 1.3rem );
+    top: -1.3rem;
     
   }
   
   .circle a:nth-child(2){
-    top: calc(50% - 1.5rem );
-    right: -1.5rem;
+    top: calc(50% - 1.3rem );
+    right: -1.3rem;
     
   }
   
   .circle a:nth-child(3){
-    top: calc(50% - 1.5rem );
-    left: -1.5rem;
+    top: calc(50% - 1.3rem );
+    left: -1.3rem;
     
   }
   
   .circle a:nth-child(4){
-    left: calc(50% - 1.5rem );
-    bottom: -1.5rem;
+    left: calc(50% - 1.3rem );
+    bottom: -1.3rem;
     
   }
 
 .hero-image{
 height: 12rem;
 width: 12rem;
-margin-top: 256px;
 
 }
-start project 
+/*start project */
 .project-container{
   grid-template-columns: 1fr;
 gap: 0;
@@ -789,8 +776,15 @@ gap: 0;
   margin: 0;
 
 }
+}
+
+  
 
 
 
 
-} */ 
+
+
+
+
+
